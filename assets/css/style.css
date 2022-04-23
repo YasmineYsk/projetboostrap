@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2? family= Merriweather:wght@300 & family= Redressed & display=swap');
+
+
+.merriweather {
+    border-color: black;
+    background-color: black;
+    color: white;
+    border-width: 2px;
+    transition: 0.5s;
+}
+
+.mp-navbar {
+    background-color:black ;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.55);
+    z-index: 99;
+}
+
+.mp-navbar .nav-link {
+    border-bottom: 2px solid transparent;
+    transition: padding-bottom 0.3s ease-in-out, border-color 0.3s ease;
+}
+
+.mp-navbar .nav-link:hover {
+    padding-bottom: 15px;
+    border-bottom-color: white;
+}
+.banner {
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banner.jpg') center center fixed no-repeat;
+   background-size: cover;
+   height: 600px;
+}
+
+.banner .banner-desc {
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.55);
+
+
+}
+
+
+.btn-order {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-color: black;
+    border-width: 2px;
+    transition: 0.5s;
+}
+
+.available {
+    background-color: black;
+}
+
+.merriweather:hover,
+.merriweather:active {
+    border-color: black;
+    background-color: white;
+    color:black;
+} 
+
+.redressed:hover,
+.redressed:active {
+    border-color: black;
+    background-color: black;
+    color:white;
+} 
+
+.btn-outline-info {
+ border-color: white;
+    width: 400px;
+    margin-bottom: 7px;
+}
+
+.btn .btn-order .redressed {
+    border-color: black;
+    background-color:black;
+    color: white;
+    border-width: 2px;
+    width: 600px;
+}
+
+.btn-group-lg > .btn, .btn-lg {
+    width: 400px;
+}
+
+
+img {
+    max-width:450px;
+    max-height: 450px;
+}
+
+
+ /*
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 40px;
+    }
+}
